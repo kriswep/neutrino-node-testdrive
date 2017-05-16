@@ -1,0 +1,19 @@
+{
+  "name": "neutrino-node-testdrive",
+  "version": "1.0.0",
+  "description": "neutrino node testdrive",
+  "main": "build/index.js",
+  "author": "Christoph Benjamin Weber <kriswep@wetainment.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "neutrino": "^5.8.0",
+    "neutrino-preset-node": "^5.8.0"
+  },
+  "dependencies": {
+    "source-map-support": "^0.4.15"
+  },
+  "scripts": {
+    "start": "neutrino start --use neutrino-preset-node",
+    "build": "neutrino build --use neutrino-preset-node"
+  }
+}
