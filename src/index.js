@@ -2,6 +2,7 @@ import { createServer } from 'http';
 import server from './server';
 
 if (module.hot) {
+  console.log('hot')
   module.hot.accept('./server');
 }
 
